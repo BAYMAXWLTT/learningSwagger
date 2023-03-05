@@ -1,5 +1,10 @@
 package main
 
-import "github.com/swaggo/gin-swagger" // gin-swagger middleware
-import "github.com/swaggo/files" // swagger embed files
+import "fmt"
 
+// gin-swagger middleware
+// swagger embed files
+
+func main() {
+	fmt.Println(123)
+}
